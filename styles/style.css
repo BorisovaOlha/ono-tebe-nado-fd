@@ -1,4 +1,4 @@
-body {
+.page {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
@@ -63,19 +63,14 @@ body {
   max-width: 240px;
 }
 
-.phone {
-  text-decoration: none;
-  border-bottom: 1px solid #000;
-}
-
-.email {
+.address a {
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
 
 .cover {
   position: relative;
-  z-index: -2;
+  z-index: 0;
   padding-top: 165px;
   padding-bottom: 50px;
   margin-bottom: 180px;
@@ -138,7 +133,7 @@ body {
 .bet-button {
   padding: 11px 31px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.18;
   text-transform: uppercase;
   color: #fff;
@@ -181,7 +176,7 @@ body {
 
 .card {
   position: relative;
-  z-index: -2;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
